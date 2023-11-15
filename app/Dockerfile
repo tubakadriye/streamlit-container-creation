@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 #Clone your code that lives in a remote repo to WORKDIR:
-RUN git clone https://github.com/streamlit/streamlit-example.git .
+#RUN git clone https://github.com/streamlit/streamlit-example.git .
 
 # Once cloned, the directory of WORKDIR will look like the following:
 
